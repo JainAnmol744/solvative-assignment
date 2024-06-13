@@ -11,7 +11,7 @@
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(206, 212, 218);
   padding: 6px 12px;
-  padding-right: 60px; /* Extra padding to make room for the span */
+  padding-right: 60px; 
   border-radius: 4px;
 }
 
@@ -35,7 +35,7 @@
   border: 1px solid rgb(222, 226, 230);
   border-radius: 2px;
   padding: 0px 4px;
-  pointer-events: none; /* Ensure the span doesn't interfere with clicking the input */
+  pointer-events: none; 
 }
 
 .controls {
@@ -127,3 +127,10 @@
   background-color: #f8f9fa;
 }
 
+
+.country-flag {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+  vertical-align: middle;
+}

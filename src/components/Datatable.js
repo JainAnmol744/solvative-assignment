@@ -19,7 +19,11 @@ const Datatable = (data) => {
                             <tr key={key}>
                                 <td>{key+1}</td>
                                 <td>{item.city}</td>
-                                <td>{item.country}</td>
+                                <td>{item.country} 
+                                <img src={`https://flagsapi.com/${item.countryCode}/flat/64.png`} 
+                                alt={`${item.country} flag`}
+                                className="country-flag"></img>
+                                </td>
                             </tr>
                             </>
                         )
